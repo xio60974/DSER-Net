@@ -1,0 +1,32 @@
+{
+    "channel_names": {
+        "0": "FLAIR",
+        "1": "T1",
+        "2": "T1ce",
+        "3": "T2"
+    },
+    "labels": {
+        "background": 0,
+        "NCR": 1,
+        "ED": 2,
+        "ET": 3
+    },
+    "regions": {
+        "WT": [
+            1,
+            2,
+            3
+        ],
+        "TC": [
+            1,
+            3
+        ],
+        "ET": [
+            3
+        ]
+    },
+    "numTraining": 1251,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "NibabelIOWithPrecomputedGeometry",
+    "name": "BraTS2021"
+}
